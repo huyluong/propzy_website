@@ -1,0 +1,31 @@
+/*----------------------------
+FontAwesome Icons - Uses Unicode, see Cheatsheet here:
+http://fortawesome.github.io/Font-Awesome/cheatsheet/
+---------------------------- */
+
+.fa {
+    font-family:"FontAwesome";
+    display:inline-block;
+    font-style:normal;
+    font-weight:normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*----------------------------
+1 General Styling
+Includes: links, lists, buttons and all consistant elements
+---------------------------- */
+
+body {
+	position: relative;
+	font-family:"Helvetica Neue", sans-serif;
+	z-index: 5;
+}
+a {text-decoration: none;}
+a:hover{
+	color:#6b7275;
+	text-decoration: none;
+}
+li {list-style: none;}
+p {line-height:24px}
+a, input, button {-ms-touch-action: none !important;}
